@@ -52,7 +52,7 @@ def plot_plus_member_trend(df):
     for bar in bars2:
         height = bar.get_height()
         ax1.text(
-            bar.get_x() + bar.get_width() / 2., height - 300,  # 向下偏移一点
+            bar.get_x() + bar.get_width() / 2., height - 100,  # 向下偏移一点
             f'{int(-height)}', ha='center', fontsize=9, fontweight='bold'
         )
 
